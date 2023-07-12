@@ -10,7 +10,7 @@ import plugins
 from plugins import *
 from common.log import logger
 from common.expired_dict import ExpiredDict
-from plugins import replicate
+import replicate
 
 
 @plugins.register(name="replicate", desc="利用replicate api来画图", version="0.3", author="lanvent")
